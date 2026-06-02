@@ -1,0 +1,3 @@
+Notizen fuer den Support Check
+Pruefen: Hostname, Benutzer, Datum, Speicherplatz
+

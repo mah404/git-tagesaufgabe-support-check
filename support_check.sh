@@ -27,11 +27,6 @@ elif [ "$auswahl" = "2" ]; then
   zeige_speicherplatz
 else
   echo "Ungueltige Auswahl"
-fi#!/bin/bash
-echo "Support Check gestartet"
-echo "Hostname: $(hostname)"
-echo "Aktueller Benutzer: $(whoami)"
-echo "Aktuelles Datum: $(date)"
-echo "Kernel-Version: $(uname -r)"
-echo "Betriebssystem:"
-cat /etc/os-release | grep PRETTY_NAME
+  exit 0
+fi
+
